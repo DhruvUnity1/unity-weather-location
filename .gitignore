@@ -1,0 +1,68 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+#Asset meta data
+![Aa]ssets/**/*.meta
+
+# Ignore compiled code
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated
+*.stackdump
+ExportedObj/
+.consulo/
+*.unitypackage
+*.apk
+*.aab
+
+# Crashes and logs
+sysinfo.txt
+*.log
+
+# OS stuff
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio cache
+.vs/
+
+# Gradle files (Android)
+.gradle/
+local.properties
+
+# Android Studio
+*.iml
+.gradle
+gradle.properties
+proguard/
