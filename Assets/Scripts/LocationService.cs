@@ -64,4 +64,10 @@ public class LocationService : MonoBehaviour
 
         Input.location.Stop();
     }
+    #if UNITY_EDITOR
+    public void SimulateLocationFetched(float latitude, float longitude)
+    {
+        OnLocationFetched?.Invoke(latitude, longitude);
+    }
+#endif
 }
