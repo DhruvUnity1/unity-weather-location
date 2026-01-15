@@ -7,8 +7,11 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
-#Asset meta data
-![Aa]ssets/**/*.meta
+# Ignore Asset meta data for everything except packages
+*.meta
+
+# But keep meta files in Packages folder so package references work
+!Packages/**/*.meta
 
 # Ignore compiled code
 *.csproj
@@ -66,3 +69,7 @@ local.properties
 .gradle
 gradle.properties
 proguard/
+
+# Keep packages manifest
+!Packages/manifest.json
+!Packages/packages-lock.json
